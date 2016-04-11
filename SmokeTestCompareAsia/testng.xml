@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Suite" parallel="false"> <test name="Smoke Test"> <classes> 
+	</classes> </test> Test </suite> Suite -->
+
+<suite name="Preserve order test runs" parallel="false" verbose="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Regression 1" preserve-order="true">
+		<classes>
+			<class name="testCases.Test01HomePage_SG_Dev" />
+			<class name="testCases.Test02HelpPage_SG_Dev" />
+			<class name="testCases.Test03AboutUsPage_SG_Dev" />
+			<class name="testCases.Test04ContactUsPage_SG_Dev" />
+		</classes>
+	</test>
+</suite>
