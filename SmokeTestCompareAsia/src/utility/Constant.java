@@ -6,7 +6,7 @@ public class Constant {
 	    //public static final String URL = "http://www.singsaver.com.sg/";
 	    public static final String Username = "dev";
 	    public static final String Password ="j8c9B2CM";
-		public static final String Path_TestData = "C:\\Users\\moushumibrahma\\Documents\\workspace\\SmokeTestCompareAsia\\src\\testData\\";
+		public static final String Path_TestData = "C:\\Users\\moushumibrahma\\Documents\\workspace\\GitRepoSmokeTest\\SmokeTestCompareAsia\\src\\testData\\";
 		public static final String File_TestData = "TestData.xlsx";
 		public static final String File_ObjectsSheet = "CGG_Objects.xlsx";
 		public static final String File_DataSheet = "CGG_Data.xlsx";
@@ -31,6 +31,6 @@ public class Constant {
 		public static final int Col_Result = 8;	
 	
 
-		public static final String Path_ScreenShot = "C:\\Users\\moushumibrahma\\Documents\\workspace\\SmokeTestCompareAsia\\src\\Screenshots\\";
+		public static final String Path_ScreenShot = "C:\\Users\\moushumibrahma\\Documents\\workspace\\GitRepoSmokeTest\\SmokeTestCompareAsia\\src\\Screenshots\\";
 		
 }
