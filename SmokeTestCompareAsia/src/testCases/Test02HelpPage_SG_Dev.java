@@ -1,10 +1,22 @@
 package testCases;
 
+import java.io.File;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
 import org.testng.annotations.BeforeTest;
@@ -40,7 +52,7 @@ public class Test02HelpPage_SG_Dev {
 		// Start printing the logs and printing the Test Case name
 		Log.startTestCase(sTestCaseName);
 		// Setting up the Test Data Excel file using Constants variables
-		ExcelWSheet = ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Login");
+		ExcelWSheet = ExcelUtils.setExcelFile(Constant.File_TestData, "Login");
 		// Fetching the Test Case row number from the Test Data Sheet
 		iTestCaseRow = ExcelUtils.getRowContains(ExcelWSheet, sTestCaseName, Constant.Col_TestCaseName);
 		// Launching the browser, this will take the Browser Type from Test Data
@@ -52,7 +64,7 @@ public class Test02HelpPage_SG_Dev {
 
 	@DataProvider(name = "DP")
 	public static Object[][] createData() throws Exception {
-		ExcelWSheet = ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, sTestCaseName);
+		ExcelWSheet = ExcelUtils.setExcelFile(Constant.File_TestData, sTestCaseName);
 		ExcelUtils.setExcelSheet(ExcelWBook, sTestCaseName);
 		Object[][] retObjArr = ExcelUtils.getRows(ExcelWSheet, sTestCaseName);
 		System.out.println(retObjArr);

@@ -77,7 +77,7 @@ public class ExcelUtils {
 				Cell.setCellValue(sResult);
 			}
 			// Constant variables Test Data path and Test Data file name
-			FileOutputStream fileOut = new FileOutputStream(Constant.Path_TestData + Constant.File_TestData);
+			FileOutputStream fileOut = new FileOutputStream(Constant.UsrDir+Constant.Path_TestData+Constant.File_TestData);
 			ExcelWBook.write(fileOut);
 			// Log.info("Class ExcelUtil | Method setCellData |" + Cell);
 			fileOut.flush();
@@ -204,7 +204,7 @@ public class ExcelUtils {
 			System.out.println("ROWS/COLUMNS" + totalNoOfRows + " " + totalNoOfCols);
 			for (int i = 1; i <= totalNoOfRows; i++) {
 				try {
-					File file = new File(Constant.Path_TestData + Constant.File_TestData);
+					File file = new File(Constant.UsrDir+Constant.Path_TestData+ Constant.File_TestData);
 					// Open WorkBook Test Data
 					XSSFWorkbook ExcelObjectSheet = new XSSFWorkbook(file);
 					// Open Sheet By Test Case Name in Test Data
@@ -240,7 +240,7 @@ public class ExcelUtils {
 	public static ArrayList<String> locateRowObject(String sTestCaseName, String sObjectId) throws Exception {
 		System.out.println("ExcelUtils|| locateRowObject");
 		ArrayList<String> srowData = new ArrayList<String>();
-		File file = new File(Constant.Path_TestData + Constant.File_ObjectsSheet);
+		File file = new File(Constant.UsrDir+Constant.Path_TestData + Constant.File_ObjectsSheet);
 		XSSFWorkbook ExcelObjectSheet = new XSSFWorkbook(file);
 		XSSFSheet ExcelOSheet = ExcelObjectSheet.getSheet(sTestCaseName);
 		try {
@@ -270,7 +270,7 @@ public class ExcelUtils {
 			String sArgs) throws Exception {
 		System.out.println("ExcelUtils|| locateColumnData");
 		ArrayList<String> scolumnData = new ArrayList<String>();
-		File file = new File(Constant.Path_TestData + Constant.File_DataSheet);
+		File file = new File(Constant.UsrDir+Constant.Path_TestData+ Constant.File_DataSheet);
 		// OPCPackage opcPackage = OPCPackage.open(file.getAbsolutePath());
 		XSSFWorkbook ExcelDataSheet = new XSSFWorkbook(file);
 		XSSFSheet ExcelDSheet = ExcelDataSheet.getSheet(sTestCaseName);

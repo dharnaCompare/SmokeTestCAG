@@ -24,7 +24,7 @@ public class Utils {
 		String sURL;
 		String sActionSheet;
 		try {
-			ExcelWSheet = ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData ,"Login");
+			ExcelWSheet = ExcelUtils.setExcelFile(Constant.File_TestData ,"Login");
 			
 			sBrowserName = ExcelUtils.getCellData(ExcelWSheet,iTestCaseRow, Constant.Col_Browser);
 			sURL = ExcelUtils.getCellData(ExcelWSheet,iTestCaseRow, Constant.Col_param1);
@@ -101,7 +101,7 @@ public class Utils {
 	public static void takeScreenshot(WebDriver driver, String sTestCaseName) throws Exception {
 		try {
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrFile, new File(Constant.Path_ScreenShot + sTestCaseName + ".jpg"));
+			FileUtils.copyFile(scrFile, new File(Constant.UsrDir + Constant.Path_ScreenShot + sTestCaseName + ".jpg"));
 		} catch (Exception e) {
 			Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "
 					+ e.getMessage());

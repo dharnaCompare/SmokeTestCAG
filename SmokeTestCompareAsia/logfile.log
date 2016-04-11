@@ -3332,3 +3332,1330 @@ System info: host: 'MouPC', ip: '10.0.1.20', os.name: 'Windows 8.1', os.arch: 'a
 Driver info: driver.version: FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
 Session ID: 0ba65319-9d5d-4b58-8845-720a93743cce 
+2016-04-11 11:10:20,423 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:10:20,423 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:10:20,423 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:10:20,423 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:10:20,423 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:10:20,425 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : C:\Users\moushumibrahma\Documents\workspace\SmokeTestCompareAsia\src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 11:10:20,455 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : C:\Users\moushumibrahma\Documents\workspace\SmokeTestCompareAsia\src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 11:14:58,964 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:14:58,965 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:14:58,965 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:14:58,965 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:14:58,965 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:15:09,831 INFO  [Log] New driver instantiated 
+2016-04-11 11:15:09,858 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:15:15,772 INFO  [Log] Web application launched successfully 
+2016-04-11 11:15:17,104 INFO  [Log] 
+***********************START OF STEP***********************  1.0::Enter email in body 
+2016-04-11 11:15:17,195 INFO  [Log] 
+input[@placeholder='Type your email here...'] is verified 
+2016-04-11 11:15:17,377 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //input[@placeholder='Type your email here...']] 
+2016-04-11 11:15:17,377 INFO  [Log] 
+1.0::Enter email in body  IS SET TO PASSED 
+2016-04-11 11:15:17,378 INFO  [Log] 
+***********************END OF STEP***********************    1.0::Enter email in body 
+2016-04-11 11:15:18,310 INFO  [Log] 
+***********************START OF STEP***********************  2.0::Click on Get Free Access now 
+2016-04-11 11:15:18,336 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 11:15:18,543 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //button[@type='submit']] 
+2016-04-11 11:15:18,543 INFO  [Log] 
+2.0::Click on Get Free Access now  IS SET TO PASSED 
+2016-04-11 11:15:18,543 INFO  [Log] 
+***********************END OF STEP***********************    2.0::Click on Get Free Access now 
+2016-04-11 11:15:18,619 INFO  [Log] 
+***********************START OF STEP***********************  3.0::Wait for Window 
+2016-04-11 11:15:22,619 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 11:15:22,619 INFO  [Log] 
+3.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 11:15:22,619 INFO  [Log] 
+***********************END OF STEP***********************    3.0::Wait for Window 
+2016-04-11 11:15:22,725 INFO  [Log] 
+***********************START OF STEP***********************  4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 11:15:22,751 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 11:15:22,778 INFO  [Log] 
+Expected Value:SUBSCRIBED EQUALS Actual Value:SUBSCRIBED  VERIFYGETTEXT ::  is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //button[@type='submit']] 
+2016-04-11 11:15:22,778 INFO  [Log] 
+4.0::Click on subscribed button to check sucessfully subscribed  IS SET TO PASSED 
+2016-04-11 11:15:22,779 INFO  [Log] 
+***********************END OF STEP***********************    4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 11:15:22,829 INFO  [Log] 
+***********************START OF STEP***********************  5.0::Click on Links for Social Icons and Verify 
+2016-04-11 11:15:22,857 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 11:15:22,894 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 11:15:25,411 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:29,166 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:31,343 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:31,344 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://www.facebook.com/SingSaver.com.sg||
+|||||||Expected :https://www.facebook.|| is verified 
+2016-04-11 11:15:31,399 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 11:15:31,431 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 11:15:35,514 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:35,862 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:38,791 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:38,791 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://plus.google.com/117439899077598193843||
+|||||||Expected :https://plus.google.|| is verified 
+2016-04-11 11:15:38,860 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 11:15:38,884 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 11:15:41,999 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:44,810 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:48,868 INFO  [Log] 
+{0895a4cc-93fe-4db6-8989-6c78c1c70c4c} is verified 
+2016-04-11 11:15:48,869 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: http://dev.singsaver.com.sg/blog/||
+|||||||Expected :http://dev.singsaver.com.sg/blog|| is verified 
+2016-04-11 11:15:48,869 INFO  [Log] 
+5.0::Click on Links for Social Icons and Verify  IS SET TO PASSED 
+2016-04-11 11:15:48,869 INFO  [Log] 
+***********************END OF STEP***********************    5.0::Click on Links for Social Icons and Verify 
+2016-04-11 11:15:48,952 INFO  [Log] 
+***********************START OF STEP***********************  6.0::Enter Details Name 
+2016-04-11 11:15:48,998 INFO  [Log] 
+input[@placeholder='Your name'] is verified 
+2016-04-11 11:15:49,120 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //input[@placeholder='Your name']] 
+2016-04-11 11:15:49,120 INFO  [Log] 
+6.0::Enter Details Name  IS SET TO PASSED 
+2016-04-11 11:15:49,120 INFO  [Log] 
+***********************END OF STEP***********************    6.0::Enter Details Name 
+2016-04-11 11:15:49,213 INFO  [Log] 
+***********************START OF STEP***********************  7.0::Enter Details YourEmail 
+2016-04-11 11:15:49,248 INFO  [Log] 
+input[@placeholder='Your e-mail'] is verified 
+2016-04-11 11:15:49,355 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //input[@placeholder='Your e-mail']] 
+2016-04-11 11:15:49,355 INFO  [Log] 
+7.0::Enter Details YourEmail  IS SET TO PASSED 
+2016-04-11 11:15:49,355 INFO  [Log] 
+***********************END OF STEP***********************    7.0::Enter Details YourEmail 
+2016-04-11 11:15:49,429 INFO  [Log] 
+***********************START OF STEP***********************  8.0::Enter Details Phno 
+2016-04-11 11:15:49,454 INFO  [Log] 
+input[@placeholder='Phone number'] is verified 
+2016-04-11 11:15:49,522 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //input[@placeholder='Phone number']] 
+2016-04-11 11:15:49,522 INFO  [Log] 
+8.0::Enter Details Phno  IS SET TO PASSED 
+2016-04-11 11:15:49,522 INFO  [Log] 
+***********************END OF STEP***********************    8.0::Enter Details Phno 
+2016-04-11 11:15:49,571 INFO  [Log] 
+***********************START OF STEP***********************  9.0::Enter Details Subject 
+2016-04-11 11:15:49,598 INFO  [Log] 
+input[@placeholder='Subject'] is verified 
+2016-04-11 11:15:49,655 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //input[@placeholder='Subject']] 
+2016-04-11 11:15:49,655 INFO  [Log] 
+9.0::Enter Details Subject  IS SET TO PASSED 
+2016-04-11 11:15:49,655 INFO  [Log] 
+***********************END OF STEP***********************    9.0::Enter Details Subject 
+2016-04-11 11:15:49,829 INFO  [Log] 
+***********************START OF STEP***********************  10.0::Enter Details Message 
+2016-04-11 11:15:49,852 INFO  [Log] 
+textarea [@name='msg'] is verified 
+2016-04-11 11:15:50,034 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //textarea [@name='msg']] 
+2016-04-11 11:15:50,034 INFO  [Log] 
+10.0::Enter Details Message  IS SET TO PASSED 
+2016-04-11 11:15:50,034 INFO  [Log] 
+***********************END OF STEP***********************    10.0::Enter Details Message 
+2016-04-11 11:15:50,078 INFO  [Log] 
+***********************START OF STEP***********************  11.0::Click on Send Message 
+2016-04-11 11:15:50,096 INFO  [Log] 
+button[text()='SEND MESSAGE'] is verified 
+2016-04-11 11:15:50,318 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (b53ccafc-82c3-4fbd-9e81-07fa4699488e)] -> xpath: //button[text()='SEND MESSAGE']] 
+2016-04-11 11:15:50,318 INFO  [Log] 
+11.0::Click on Send Message  IS SET TO PASSED 
+2016-04-11 11:15:50,318 INFO  [Log] 
+***********************END OF STEP***********************    11.0::Click on Send Message 
+2016-04-11 11:15:50,501 INFO  [Log] 
+***********************START OF STEP***********************  12.0::Wait for Window 
+2016-04-11 11:15:54,502 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 11:15:54,502 INFO  [Log] 
+12.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 11:15:54,502 INFO  [Log] 
+***********************END OF STEP***********************    12.0::Wait for Window 
+2016-04-11 11:15:54,526 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:15:54,526 INFO  [Log] X 
+2016-04-11 11:15:54,526 INFO  [Log] X 
+2016-04-11 11:15:54,526 INFO  [Log] X 
+2016-04-11 11:15:54,526 INFO  [Log] X 
+2016-04-11 11:33:59,949 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:33:59,950 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:33:59,950 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:33:59,950 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:33:59,950 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:33:59,952 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : ..\..\C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\TestData.xlsx (The filename, directory name, or volume label syntax is incorrect) 
+2016-04-11 11:33:59,978 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : ..\..\C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\TestData.xlsx (The filename, directory name, or volume label syntax is incorrect) 
+2016-04-11 11:35:32,246 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:35:32,247 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:35:32,247 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:35:32,247 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:35:32,247 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:35:32,249 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : ..\..\C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\TestData.xlsx (The filename, directory name, or volume label syntax is incorrect) 
+2016-04-11 11:35:32,268 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : ..\..\C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\TestData.xlsx (The filename, directory name, or volume label syntax is incorrect) 
+2016-04-11 11:36:23,208 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:36:23,209 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:36:23,209 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:36:23,209 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:36:23,209 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:36:30,882 INFO  [Log] New driver instantiated 
+2016-04-11 11:36:31,054 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:36:34,921 INFO  [Log] Web application launched successfully 
+2016-04-11 11:36:36,486 INFO  [Log] 
+***********************START OF STEP***********************  1.0::Enter email in body 
+2016-04-11 11:36:36,641 INFO  [Log] 
+input[@placeholder='Type your email here...'] is verified 
+2016-04-11 11:36:36,758 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //input[@placeholder='Type your email here...']] 
+2016-04-11 11:36:36,758 INFO  [Log] 
+1.0::Enter email in body  IS SET TO PASSED 
+2016-04-11 11:36:36,758 INFO  [Log] 
+***********************END OF STEP***********************    1.0::Enter email in body 
+2016-04-11 11:36:37,749 INFO  [Log] 
+***********************START OF STEP***********************  2.0::Click on Get Free Access now 
+2016-04-11 11:36:37,777 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 11:36:37,907 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //button[@type='submit']] 
+2016-04-11 11:36:37,907 INFO  [Log] 
+2.0::Click on Get Free Access now  IS SET TO PASSED 
+2016-04-11 11:36:37,907 INFO  [Log] 
+***********************END OF STEP***********************    2.0::Click on Get Free Access now 
+2016-04-11 11:36:37,981 INFO  [Log] 
+***********************START OF STEP***********************  3.0::Wait for Window 
+2016-04-11 11:36:41,981 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 11:36:41,981 INFO  [Log] 
+3.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 11:36:41,981 INFO  [Log] 
+***********************END OF STEP***********************    3.0::Wait for Window 
+2016-04-11 11:36:42,075 INFO  [Log] 
+***********************START OF STEP***********************  4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 11:36:42,109 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 11:36:42,134 INFO  [Log] 
+Expected Value:SUBSCRIBED EQUALS Actual Value:SUBSCRIBED  VERIFYGETTEXT ::  is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //button[@type='submit']] 
+2016-04-11 11:36:42,134 INFO  [Log] 
+4.0::Click on subscribed button to check sucessfully subscribed  IS SET TO PASSED 
+2016-04-11 11:36:42,134 INFO  [Log] 
+***********************END OF STEP***********************    4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 11:36:42,195 INFO  [Log] 
+***********************START OF STEP***********************  5.0::Click on Links for Social Icons and Verify 
+2016-04-11 11:36:42,221 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 11:36:42,253 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 11:36:44,793 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:36:46,395 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:36:48,596 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:36:48,596 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://www.facebook.com/SingSaver.com.sg||
+|||||||Expected :https://www.facebook.|| is verified 
+2016-04-11 11:36:48,652 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 11:36:48,675 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 11:36:52,334 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:36:52,496 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:36:55,513 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:36:55,513 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://plus.google.com/117439899077598193843||
+|||||||Expected :https://plus.google.|| is verified 
+2016-04-11 11:36:55,553 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 11:36:55,572 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 11:36:58,451 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:37:04,600 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:37:06,789 INFO  [Log] 
+{41018e19-9a23-4d10-80c2-55b6a6459e2e} is verified 
+2016-04-11 11:37:06,789 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: http://dev.singsaver.com.sg/blog/||
+|||||||Expected :http://dev.singsaver.com.sg/blog|| is verified 
+2016-04-11 11:37:06,789 INFO  [Log] 
+5.0::Click on Links for Social Icons and Verify  IS SET TO PASSED 
+2016-04-11 11:37:06,789 INFO  [Log] 
+***********************END OF STEP***********************    5.0::Click on Links for Social Icons and Verify 
+2016-04-11 11:37:06,872 INFO  [Log] 
+***********************START OF STEP***********************  6.0::Enter Details Name 
+2016-04-11 11:37:06,896 INFO  [Log] 
+input[@placeholder='Your name'] is verified 
+2016-04-11 11:37:06,976 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //input[@placeholder='Your name']] 
+2016-04-11 11:37:06,976 INFO  [Log] 
+6.0::Enter Details Name  IS SET TO PASSED 
+2016-04-11 11:37:06,976 INFO  [Log] 
+***********************END OF STEP***********************    6.0::Enter Details Name 
+2016-04-11 11:37:07,032 INFO  [Log] 
+***********************START OF STEP***********************  7.0::Enter Details YourEmail 
+2016-04-11 11:37:07,057 INFO  [Log] 
+input[@placeholder='Your e-mail'] is verified 
+2016-04-11 11:37:07,142 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //input[@placeholder='Your e-mail']] 
+2016-04-11 11:37:07,142 INFO  [Log] 
+7.0::Enter Details YourEmail  IS SET TO PASSED 
+2016-04-11 11:37:07,142 INFO  [Log] 
+***********************END OF STEP***********************    7.0::Enter Details YourEmail 
+2016-04-11 11:37:07,196 INFO  [Log] 
+***********************START OF STEP***********************  8.0::Enter Details Phno 
+2016-04-11 11:37:07,223 INFO  [Log] 
+input[@placeholder='Phone number'] is verified 
+2016-04-11 11:37:07,295 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //input[@placeholder='Phone number']] 
+2016-04-11 11:37:07,295 INFO  [Log] 
+8.0::Enter Details Phno  IS SET TO PASSED 
+2016-04-11 11:37:07,295 INFO  [Log] 
+***********************END OF STEP***********************    8.0::Enter Details Phno 
+2016-04-11 11:37:07,345 INFO  [Log] 
+***********************START OF STEP***********************  9.0::Enter Details Subject 
+2016-04-11 11:37:07,366 INFO  [Log] 
+input[@placeholder='Subject'] is verified 
+2016-04-11 11:37:07,411 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //input[@placeholder='Subject']] 
+2016-04-11 11:37:07,411 INFO  [Log] 
+9.0::Enter Details Subject  IS SET TO PASSED 
+2016-04-11 11:37:07,411 INFO  [Log] 
+***********************END OF STEP***********************    9.0::Enter Details Subject 
+2016-04-11 11:37:07,462 INFO  [Log] 
+***********************START OF STEP***********************  10.0::Enter Details Message 
+2016-04-11 11:37:07,486 INFO  [Log] 
+textarea [@name='msg'] is verified 
+2016-04-11 11:37:07,572 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //textarea [@name='msg']] 
+2016-04-11 11:37:07,572 INFO  [Log] 
+10.0::Enter Details Message  IS SET TO PASSED 
+2016-04-11 11:37:07,572 INFO  [Log] 
+***********************END OF STEP***********************    10.0::Enter Details Message 
+2016-04-11 11:37:07,612 INFO  [Log] 
+***********************START OF STEP***********************  11.0::Click on Send Message 
+2016-04-11 11:37:07,642 INFO  [Log] 
+button[text()='SEND MESSAGE'] is verified 
+2016-04-11 11:37:07,819 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (74107ea5-afeb-47ae-ac24-39288764300f)] -> xpath: //button[text()='SEND MESSAGE']] 
+2016-04-11 11:37:07,819 INFO  [Log] 
+11.0::Click on Send Message  IS SET TO PASSED 
+2016-04-11 11:37:07,819 INFO  [Log] 
+***********************END OF STEP***********************    11.0::Click on Send Message 
+2016-04-11 11:37:07,910 INFO  [Log] 
+***********************START OF STEP***********************  12.0::Wait for Window 
+2016-04-11 11:37:11,910 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 11:37:11,910 INFO  [Log] 
+12.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 11:37:11,910 INFO  [Log] 
+***********************END OF STEP***********************    12.0::Wait for Window 
+2016-04-11 11:37:11,952 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:37:11,952 INFO  [Log] X 
+2016-04-11 11:37:11,952 INFO  [Log] X 
+2016-04-11 11:37:11,952 INFO  [Log] X 
+2016-04-11 11:37:11,952 INFO  [Log] X 
+2016-04-11 11:41:47,343 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:41:47,344 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:41:47,344 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:41:47,344 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:41:47,344 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:41:54,832 INFO  [Log] New driver instantiated 
+2016-04-11 11:41:54,864 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:41:58,162 INFO  [Log] Web application launched successfully 
+2016-04-11 11:41:58,242 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:41:58,242 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 11:41:58,255 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:41:58,255 INFO  [Log] X 
+2016-04-11 11:41:58,255 INFO  [Log] X 
+2016-04-11 11:41:58,255 INFO  [Log] X 
+2016-04-11 11:41:58,255 INFO  [Log] X 
+2016-04-11 11:45:34,906 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:45:34,906 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:45:34,906 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:45:34,906 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:45:34,906 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:45:42,418 INFO  [Log] New driver instantiated 
+2016-04-11 11:45:42,550 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:45:45,414 INFO  [Log] Web application launched successfully 
+2016-04-11 11:45:45,515 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:45:45,515 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : TestData.xlsx (The system cannot find the file specified) 
+2016-04-11 11:45:45,528 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:45:45,528 INFO  [Log] X 
+2016-04-11 11:45:45,528 INFO  [Log] X 
+2016-04-11 11:45:45,529 INFO  [Log] X 
+2016-04-11 11:45:45,529 INFO  [Log] X 
+2016-04-11 11:48:30,287 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:48:30,288 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:48:30,288 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:48:30,288 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:48:30,288 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:48:38,373 INFO  [Log] New driver instantiated 
+2016-04-11 11:48:38,586 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:48:41,432 INFO  [Log] Web application launched successfully 
+2016-04-11 11:48:41,520 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:48:41,520 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 11:48:41,531 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:48:41,531 INFO  [Log] X 
+2016-04-11 11:48:41,531 INFO  [Log] X 
+2016-04-11 11:48:41,531 INFO  [Log] X 
+2016-04-11 11:48:41,532 INFO  [Log] X 
+2016-04-11 11:51:41,874 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:51:41,875 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:51:41,875 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:51:41,875 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:51:41,875 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:51:49,731 INFO  [Log] New driver instantiated 
+2016-04-11 11:51:49,752 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:51:53,413 INFO  [Log] Web application launched successfully 
+2016-04-11 11:51:53,513 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:51:53,513 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : TestData.xlsx (The system cannot find the file specified) 
+2016-04-11 11:51:53,523 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:51:53,523 INFO  [Log] X 
+2016-04-11 11:51:53,523 INFO  [Log] X 
+2016-04-11 11:51:53,523 INFO  [Log] X 
+2016-04-11 11:51:53,523 INFO  [Log] X 
+2016-04-11 11:55:39,209 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:55:39,209 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:55:39,209 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:55:39,209 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:55:39,210 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:55:47,292 INFO  [Log] New driver instantiated 
+2016-04-11 11:55:47,462 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:55:51,185 INFO  [Log] Web application launched successfully 
+2016-04-11 11:55:51,276 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:55:51,276 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : \testDataTestData.xlsx (The system cannot find the file specified) 
+2016-04-11 11:55:51,287 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:55:51,288 INFO  [Log] X 
+2016-04-11 11:55:51,288 INFO  [Log] X 
+2016-04-11 11:55:51,288 INFO  [Log] X 
+2016-04-11 11:55:51,288 INFO  [Log] X 
+2016-04-11 11:56:14,143 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:56:14,144 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:56:14,144 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:56:14,144 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:56:14,144 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:56:21,635 INFO  [Log] New driver instantiated 
+2016-04-11 11:56:21,812 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:56:27,409 INFO  [Log] Web application launched successfully 
+2016-04-11 11:56:27,493 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:56:27,493 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : \testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 11:56:27,504 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:56:27,504 INFO  [Log] X 
+2016-04-11 11:56:27,504 INFO  [Log] X 
+2016-04-11 11:56:27,504 INFO  [Log] X 
+2016-04-11 11:56:27,505 INFO  [Log] X 
+2016-04-11 11:57:19,285 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:57:19,286 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:57:19,286 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 11:57:19,286 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:57:19,286 INFO  [Log] **************************************************************************************** 
+2016-04-11 11:57:26,726 INFO  [Log] New driver instantiated 
+2016-04-11 11:57:26,874 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 11:57:29,825 INFO  [Log] Web application launched successfully 
+2016-04-11 11:57:29,913 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 11:57:29,914 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 11:57:29,924 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 11:57:29,924 INFO  [Log] X 
+2016-04-11 11:57:29,924 INFO  [Log] X 
+2016-04-11 11:57:29,924 INFO  [Log] X 
+2016-04-11 11:57:29,924 INFO  [Log] X 
+2016-04-11 12:02:11,201 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:02:11,201 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:02:11,201 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:02:11,202 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:02:11,202 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:02:18,957 INFO  [Log] New driver instantiated 
+2016-04-11 12:02:19,105 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:02:21,782 INFO  [Log] Web application launched successfully 
+2016-04-11 12:02:21,857 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:02:21,857 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:02:21,867 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:02:21,867 INFO  [Log] X 
+2016-04-11 12:02:21,867 INFO  [Log] X 
+2016-04-11 12:02:21,867 INFO  [Log] X 
+2016-04-11 12:02:21,867 INFO  [Log] X 
+2016-04-11 12:06:35,882 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:06:35,883 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:06:35,883 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:06:35,883 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:06:35,883 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:06:44,234 INFO  [Log] New driver instantiated 
+2016-04-11 12:06:44,278 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:06:47,179 INFO  [Log] Web application launched successfully 
+2016-04-11 12:06:47,292 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:06:47,293 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:06:47,311 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:06:47,311 INFO  [Log] X 
+2016-04-11 12:06:47,312 INFO  [Log] X 
+2016-04-11 12:06:47,312 INFO  [Log] X 
+2016-04-11 12:06:47,312 INFO  [Log] X 
+2016-04-11 12:10:09,392 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:10:09,393 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:10:09,393 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:10:09,393 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:10:09,393 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:10:16,713 INFO  [Log] New driver instantiated 
+2016-04-11 12:10:16,932 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:10:22,328 INFO  [Log] Web application launched successfully 
+2016-04-11 12:10:22,427 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:10:22,428 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:10:22,446 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:10:22,446 INFO  [Log] X 
+2016-04-11 12:10:22,446 INFO  [Log] X 
+2016-04-11 12:10:22,446 INFO  [Log] X 
+2016-04-11 12:10:22,446 INFO  [Log] X 
+2016-04-11 12:11:09,981 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:11:09,982 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:11:09,982 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:11:09,982 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:11:09,982 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:11:18,080 INFO  [Log] New driver instantiated 
+2016-04-11 12:11:18,116 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:11:21,223 INFO  [Log] Web application launched successfully 
+2016-04-11 12:11:21,314 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:11:21,314 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:11:21,322 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:11:21,322 INFO  [Log] X 
+2016-04-11 12:11:21,322 INFO  [Log] X 
+2016-04-11 12:11:21,322 INFO  [Log] X 
+2016-04-11 12:11:21,322 INFO  [Log] X 
+2016-04-11 12:13:14,624 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:13:14,624 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:13:14,624 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:13:14,625 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:13:14,625 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:13:22,195 INFO  [Log] New driver instantiated 
+2016-04-11 12:13:22,328 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:13:26,066 INFO  [Log] Web application launched successfully 
+2016-04-11 12:13:27,261 INFO  [Log] 
+***********************START OF STEP***********************  1.0::Enter email in body 
+2016-04-11 12:13:27,330 INFO  [Log] 
+input[@placeholder='Type your email here...'] is verified 
+2016-04-11 12:13:27,427 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //input[@placeholder='Type your email here...']] 
+2016-04-11 12:13:27,427 INFO  [Log] 
+1.0::Enter email in body  IS SET TO PASSED 
+2016-04-11 12:13:27,427 INFO  [Log] 
+***********************END OF STEP***********************    1.0::Enter email in body 
+2016-04-11 12:13:28,305 INFO  [Log] 
+***********************START OF STEP***********************  2.0::Click on Get Free Access now 
+2016-04-11 12:13:28,325 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:13:28,488 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:13:28,488 INFO  [Log] 
+2.0::Click on Get Free Access now  IS SET TO PASSED 
+2016-04-11 12:13:28,489 INFO  [Log] 
+***********************END OF STEP***********************    2.0::Click on Get Free Access now 
+2016-04-11 12:13:28,702 INFO  [Log] 
+***********************START OF STEP***********************  3.0::Wait for Window 
+2016-04-11 12:13:32,703 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:13:32,703 INFO  [Log] 
+3.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:13:32,703 INFO  [Log] 
+***********************END OF STEP***********************    3.0::Wait for Window 
+2016-04-11 12:13:32,803 INFO  [Log] 
+***********************START OF STEP***********************  4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:13:32,844 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:13:32,876 INFO  [Log] 
+Expected Value:SUBSCRIBED EQUALS Actual Value:SUBSCRIBED  VERIFYGETTEXT ::  is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:13:32,876 INFO  [Log] 
+4.0::Click on subscribed button to check sucessfully subscribed  IS SET TO PASSED 
+2016-04-11 12:13:32,876 INFO  [Log] 
+***********************END OF STEP***********************    4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:13:32,942 INFO  [Log] 
+***********************START OF STEP***********************  5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:13:32,970 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:13:32,996 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:13:35,741 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:37,314 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:39,522 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:39,522 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://www.facebook.com/SingSaver.com.sg||
+|||||||Expected :https://www.facebook.|| is verified 
+2016-04-11 12:13:39,543 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:13:39,560 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:13:43,353 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:44,688 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:46,870 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:46,870 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://plus.google.com/117439899077598193843||
+|||||||Expected :https://plus.google.|| is verified 
+2016-04-11 12:13:46,938 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:13:46,979 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:13:50,666 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:55,989 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:58,171 INFO  [Log] 
+{d31e5d60-a890-4e18-a589-309bea36ff72} is verified 
+2016-04-11 12:13:58,172 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: http://dev.singsaver.com.sg/blog/||
+|||||||Expected :http://dev.singsaver.com.sg/blog|| is verified 
+2016-04-11 12:13:58,172 INFO  [Log] 
+5.0::Click on Links for Social Icons and Verify  IS SET TO PASSED 
+2016-04-11 12:13:58,172 INFO  [Log] 
+***********************END OF STEP***********************    5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:13:58,261 INFO  [Log] 
+***********************START OF STEP***********************  6.0::Enter Details Name 
+2016-04-11 12:13:58,299 INFO  [Log] 
+input[@placeholder='Your name'] is verified 
+2016-04-11 12:13:58,476 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //input[@placeholder='Your name']] 
+2016-04-11 12:13:58,477 INFO  [Log] 
+6.0::Enter Details Name  IS SET TO PASSED 
+2016-04-11 12:13:58,477 INFO  [Log] 
+***********************END OF STEP***********************    6.0::Enter Details Name 
+2016-04-11 12:13:58,621 INFO  [Log] 
+***********************START OF STEP***********************  7.0::Enter Details YourEmail 
+2016-04-11 12:13:58,653 INFO  [Log] 
+input[@placeholder='Your e-mail'] is verified 
+2016-04-11 12:13:58,761 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //input[@placeholder='Your e-mail']] 
+2016-04-11 12:13:58,761 INFO  [Log] 
+7.0::Enter Details YourEmail  IS SET TO PASSED 
+2016-04-11 12:13:58,761 INFO  [Log] 
+***********************END OF STEP***********************    7.0::Enter Details YourEmail 
+2016-04-11 12:13:58,889 INFO  [Log] 
+***********************START OF STEP***********************  8.0::Enter Details Phno 
+2016-04-11 12:13:58,927 INFO  [Log] 
+input[@placeholder='Phone number'] is verified 
+2016-04-11 12:13:59,027 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //input[@placeholder='Phone number']] 
+2016-04-11 12:13:59,027 INFO  [Log] 
+8.0::Enter Details Phno  IS SET TO PASSED 
+2016-04-11 12:13:59,027 INFO  [Log] 
+***********************END OF STEP***********************    8.0::Enter Details Phno 
+2016-04-11 12:13:59,109 INFO  [Log] 
+***********************START OF STEP***********************  9.0::Enter Details Subject 
+2016-04-11 12:13:59,153 INFO  [Log] 
+input[@placeholder='Subject'] is verified 
+2016-04-11 12:13:59,205 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //input[@placeholder='Subject']] 
+2016-04-11 12:13:59,205 INFO  [Log] 
+9.0::Enter Details Subject  IS SET TO PASSED 
+2016-04-11 12:13:59,205 INFO  [Log] 
+***********************END OF STEP***********************    9.0::Enter Details Subject 
+2016-04-11 12:13:59,254 INFO  [Log] 
+***********************START OF STEP***********************  10.0::Enter Details Message 
+2016-04-11 12:13:59,274 INFO  [Log] 
+textarea [@name='msg'] is verified 
+2016-04-11 12:13:59,374 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //textarea [@name='msg']] 
+2016-04-11 12:13:59,374 INFO  [Log] 
+10.0::Enter Details Message  IS SET TO PASSED 
+2016-04-11 12:13:59,374 INFO  [Log] 
+***********************END OF STEP***********************    10.0::Enter Details Message 
+2016-04-11 12:13:59,423 INFO  [Log] 
+***********************START OF STEP***********************  11.0::Click on Send Message 
+2016-04-11 12:13:59,455 INFO  [Log] 
+button[text()='SEND MESSAGE'] is verified 
+2016-04-11 12:13:59,622 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (3c98798f-fa73-4c20-9379-0e06c185cf35)] -> xpath: //button[text()='SEND MESSAGE']] 
+2016-04-11 12:13:59,622 INFO  [Log] 
+11.0::Click on Send Message  IS SET TO PASSED 
+2016-04-11 12:13:59,622 INFO  [Log] 
+***********************END OF STEP***********************    11.0::Click on Send Message 
+2016-04-11 12:13:59,693 INFO  [Log] 
+***********************START OF STEP***********************  12.0::Wait for Window 
+2016-04-11 12:14:03,694 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:14:03,694 INFO  [Log] 
+12.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:14:03,694 INFO  [Log] 
+***********************END OF STEP***********************    12.0::Wait for Window 
+2016-04-11 12:14:03,753 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:14:03,753 INFO  [Log] X 
+2016-04-11 12:14:03,753 INFO  [Log] X 
+2016-04-11 12:14:03,753 INFO  [Log] X 
+2016-04-11 12:14:03,753 INFO  [Log] X 
+2016-04-11 12:20:22,295 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:22,295 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:22,295 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:20:22,295 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:22,295 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:29,825 INFO  [Log] New driver instantiated 
+2016-04-11 12:20:30,004 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:20:33,553 INFO  [Log] Web application launched successfully 
+2016-04-11 12:20:33,634 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:20:33,634 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:20:33,644 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:20:33,644 INFO  [Log] X 
+2016-04-11 12:20:33,644 INFO  [Log] X 
+2016-04-11 12:20:33,644 INFO  [Log] X 
+2016-04-11 12:20:33,644 INFO  [Log] X 
+2016-04-11 12:20:53,953 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:53,953 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:53,953 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:20:53,953 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:20:53,953 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:21:01,822 INFO  [Log] New driver instantiated 
+2016-04-11 12:21:01,848 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:21:06,940 INFO  [Log] Web application launched successfully 
+2016-04-11 12:21:07,022 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:21:07,023 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:21:07,033 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:21:07,033 INFO  [Log] X 
+2016-04-11 12:21:07,033 INFO  [Log] X 
+2016-04-11 12:21:07,033 INFO  [Log] X 
+2016-04-11 12:21:07,034 INFO  [Log] X 
+2016-04-11 12:21:15,579 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:21:15,580 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:21:15,580 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:21:15,580 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:21:15,580 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:21:23,265 INFO  [Log] New driver instantiated 
+2016-04-11 12:21:23,518 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:21:27,009 INFO  [Log] Web application launched successfully 
+2016-04-11 12:21:28,268 INFO  [Log] 
+***********************START OF STEP***********************  1.0::Enter email in body 
+2016-04-11 12:21:28,380 INFO  [Log] 
+input[@placeholder='Type your email here...'] is verified 
+2016-04-11 12:21:28,489 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (ce85f183-a743-451d-9f68-5848fbd763e5)] -> xpath: //input[@placeholder='Type your email here...']] 
+2016-04-11 12:21:28,490 INFO  [Log] 
+1.0::Enter email in body  IS SET TO PASSED 
+2016-04-11 12:21:28,490 INFO  [Log] 
+***********************END OF STEP***********************    1.0::Enter email in body 
+2016-04-11 12:21:29,556 INFO  [Log] 
+***********************START OF STEP***********************  2.0::Click on Get Free Access now 
+2016-04-11 12:21:29,581 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:21:29,771 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (ce85f183-a743-451d-9f68-5848fbd763e5)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:21:29,771 INFO  [Log] 
+2.0::Click on Get Free Access now  IS SET TO PASSED 
+2016-04-11 12:21:29,771 INFO  [Log] 
+***********************END OF STEP***********************    2.0::Click on Get Free Access now 
+2016-04-11 12:21:29,853 INFO  [Log] 
+***********************START OF STEP***********************  3.0::Wait for Window 
+2016-04-11 12:21:33,853 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:21:33,853 INFO  [Log] 
+3.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:21:33,853 INFO  [Log] 
+***********************END OF STEP***********************    3.0::Wait for Window 
+2016-04-11 12:21:33,971 INFO  [Log] 
+***********************START OF STEP***********************  4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:21:34,007 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:21:34,032 INFO  [Log] 
+Expected Value:SUBSCRIBED EQUALS Actual Value:SUBSCRIBED  VERIFYGETTEXT ::  is done on[[FirefoxDriver: firefox on WINDOWS (ce85f183-a743-451d-9f68-5848fbd763e5)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:21:34,033 INFO  [Log] 
+4.0::Click on subscribed button to check sucessfully subscribed  IS SET TO PASSED 
+2016-04-11 12:21:34,033 INFO  [Log] 
+***********************END OF STEP***********************    4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:21:34,093 INFO  [Log] 
+***********************START OF STEP***********************  5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:21:34,128 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:21:34,151 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:21:37,448 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:21:37,624 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:21:39,872 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:21:39,872 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://www.facebook.com/SingSaver.com.sg||
+|||||||Expected :https://www.facebook.|| is verified 
+2016-04-11 12:21:39,896 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:21:39,918 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:21:43,637 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:21:43,944 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:21:46,085 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:21:46,086 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://plus.google.com/117439899077598193843||
+|||||||Expected :https://plus.google.|| is verified 
+2016-04-11 12:21:46,146 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:21:46,165 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:21:49,416 INFO  [Log] 
+{a4f2b169-099e-443d-8c93-716352e88e7e} is verified 
+2016-04-11 12:23:31,858 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:23:31,859 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:23:31,859 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:23:31,859 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:23:31,859 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:23:31,860 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:23:31,886 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:24:33,318 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:24:33,319 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:24:33,319 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:24:33,319 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:24:33,319 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:24:33,988 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:24:33,988 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:24:35,322 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,381 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,432 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,507 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,549 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,596 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,651 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,693 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,747 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,791 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,839 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,872 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:24:35,879 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:24:35,879 INFO  [Log] X 
+2016-04-11 12:24:35,879 INFO  [Log] X 
+2016-04-11 12:24:35,879 INFO  [Log] X 
+2016-04-11 12:24:35,879 INFO  [Log] X 
+2016-04-11 12:27:07,189 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:27:07,190 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:27:07,190 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:27:07,190 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:27:07,190 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:27:07,759 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:27:07,759 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:27:09,032 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:27:09,032 INFO  [Log] X 
+2016-04-11 12:27:09,032 INFO  [Log] X 
+2016-04-11 12:27:09,032 INFO  [Log] X 
+2016-04-11 12:27:09,032 INFO  [Log] X 
+2016-04-11 12:28:22,408 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:28:22,409 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:28:22,409 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:28:22,409 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:28:22,409 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:28:23,054 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:28:23,055 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:28:24,466 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,520 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,566 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,605 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,664 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,698 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,736 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,773 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,813 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,856 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,909 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,939 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:28:24,943 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:28:24,943 INFO  [Log] X 
+2016-04-11 12:28:24,943 INFO  [Log] X 
+2016-04-11 12:28:24,943 INFO  [Log] X 
+2016-04-11 12:28:24,943 INFO  [Log] X 
+2016-04-11 12:34:56,501 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:34:56,502 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:34:56,502 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:34:56,502 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:34:56,502 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:34:57,074 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:34:57,075 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:34:57,158 ERROR [Log] Class ExcelUtil | Method getRows |For Loop i 
+2016-04-11 12:34:57,159 ERROR [Log] Class ExcelUtil | Method getRows | Exception desc : Zip File is closed 
+2016-04-11 12:34:57,169 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:34:57,169 INFO  [Log] X 
+2016-04-11 12:34:57,169 INFO  [Log] X 
+2016-04-11 12:34:57,169 INFO  [Log] X 
+2016-04-11 12:34:57,169 INFO  [Log] X 
+2016-04-11 12:37:19,864 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:37:19,865 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:37:19,865 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:37:19,865 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:37:19,865 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:37:20,414 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:37:20,414 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:37:21,680 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,728 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,771 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,809 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,844 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,878 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,916 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,945 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:21,980 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:22,009 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:22,056 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:22,100 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:37:22,107 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:37:22,107 INFO  [Log] X 
+2016-04-11 12:37:22,107 INFO  [Log] X 
+2016-04-11 12:37:22,107 INFO  [Log] X 
+2016-04-11 12:37:22,107 INFO  [Log] X 
+2016-04-11 12:39:17,579 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:39:17,580 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:39:17,580 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:39:17,580 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:39:17,580 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:39:18,224 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:39:18,224 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : \src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:39:19,577 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,638 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,677 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,713 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,753 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,790 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,833 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,870 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,912 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,948 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:19,977 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:20,004 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:39:20,009 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:39:20,009 INFO  [Log] X 
+2016-04-11 12:39:20,009 INFO  [Log] X 
+2016-04-11 12:39:20,009 INFO  [Log] X 
+2016-04-11 12:39:20,009 INFO  [Log] X 
+2016-04-11 12:43:21,825 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:43:21,825 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:43:21,825 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:43:21,825 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:43:21,825 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:43:22,404 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:43:22,404 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\src\testData\TestData.xlsx (The system cannot find the path specified) 
+2016-04-11 12:43:23,750 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:23,801 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:23,839 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:23,874 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:23,924 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:23,965 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:23,997 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:24,037 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:24,080 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:24,118 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:24,153 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:24,191 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:43:24,195 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:43:24,195 INFO  [Log] X 
+2016-04-11 12:43:24,195 INFO  [Log] X 
+2016-04-11 12:43:24,195 INFO  [Log] X 
+2016-04-11 12:43:24,195 INFO  [Log] X 
+2016-04-11 12:47:33,401 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:47:33,401 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:47:33,401 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:47:33,401 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:47:33,402 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:47:33,977 ERROR [Log] Class ExcelUtil | Method setExcelFile | Exception desc : C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\TestData.xlsx (The filename, directory name, or volume label syntax is incorrect) 
+2016-04-11 12:47:33,978 ERROR [Log] Class Utils | Method OpenBrowser | Exception desc : C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\C:\Users\moushumibrahma\Documents\workspace\GitRepoSmokeTest\SmokeTestCompareAsia\src\testData\TestData.xlsx (The filename, directory name, or volume label syntax is incorrect) 
+2016-04-11 12:47:35,263 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,344 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,416 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,463 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,508 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,540 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,570 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,612 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,652 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,683 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,711 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,750 ERROR [Log] Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : null 
+2016-04-11 12:47:35,754 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:47:35,754 INFO  [Log] X 
+2016-04-11 12:47:35,754 INFO  [Log] X 
+2016-04-11 12:47:35,754 INFO  [Log] X 
+2016-04-11 12:47:35,754 INFO  [Log] X 
+2016-04-11 12:49:22,637 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:49:22,637 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:49:22,637 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:49:22,637 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:49:22,637 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:49:30,667 INFO  [Log] New driver instantiated 
+2016-04-11 12:49:30,883 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:49:34,359 INFO  [Log] Web application launched successfully 
+2016-04-11 12:49:36,171 INFO  [Log] 
+***********************START OF STEP***********************  1.0::Enter email in body 
+2016-04-11 12:49:36,277 INFO  [Log] 
+input[@placeholder='Type your email here...'] is verified 
+2016-04-11 12:49:37,431 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //input[@placeholder='Type your email here...']] 
+2016-04-11 12:49:37,431 INFO  [Log] 
+1.0::Enter email in body  IS SET TO PASSED 
+2016-04-11 12:49:37,431 INFO  [Log] 
+***********************END OF STEP***********************    1.0::Enter email in body 
+2016-04-11 12:49:37,612 INFO  [Log] 
+***********************START OF STEP***********************  2.0::Click on Get Free Access now 
+2016-04-11 12:49:37,635 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:49:37,789 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:49:37,789 INFO  [Log] 
+2.0::Click on Get Free Access now  IS SET TO PASSED 
+2016-04-11 12:49:37,789 INFO  [Log] 
+***********************END OF STEP***********************    2.0::Click on Get Free Access now 
+2016-04-11 12:49:37,880 INFO  [Log] 
+***********************START OF STEP***********************  3.0::Wait for Window 
+2016-04-11 12:49:41,881 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:49:41,881 INFO  [Log] 
+3.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:49:41,881 INFO  [Log] 
+***********************END OF STEP***********************    3.0::Wait for Window 
+2016-04-11 12:49:41,964 INFO  [Log] 
+***********************START OF STEP***********************  4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:49:41,987 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:49:42,006 INFO  [Log] 
+Expected Value:SUBSCRIBED EQUALS Actual Value:SUBSCRIBED  VERIFYGETTEXT ::  is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:49:42,006 INFO  [Log] 
+4.0::Click on subscribed button to check sucessfully subscribed  IS SET TO PASSED 
+2016-04-11 12:49:42,006 INFO  [Log] 
+***********************END OF STEP***********************    4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:49:42,085 INFO  [Log] 
+***********************START OF STEP***********************  5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:49:42,113 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:49:42,136 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:49:44,671 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:49:45,894 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:49:48,700 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:49:48,700 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://www.facebook.com/SingSaver.com.sg||
+|||||||Expected :https://www.facebook.|| is verified 
+2016-04-11 12:49:48,755 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:49:48,802 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:49:52,637 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:49:53,570 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:49:55,726 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:49:55,726 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://plus.google.com/117439899077598193843||
+|||||||Expected :https://plus.google.|| is verified 
+2016-04-11 12:49:55,766 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:49:55,786 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:49:59,041 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:50:03,155 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:50:05,398 INFO  [Log] 
+{0d503587-a62b-4ff3-8303-bcb6475be9d5} is verified 
+2016-04-11 12:50:05,398 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: http://dev.singsaver.com.sg/blog/||
+|||||||Expected :http://dev.singsaver.com.sg/blog|| is verified 
+2016-04-11 12:50:05,398 INFO  [Log] 
+5.0::Click on Links for Social Icons and Verify  IS SET TO PASSED 
+2016-04-11 12:50:05,398 INFO  [Log] 
+***********************END OF STEP***********************    5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:50:05,474 INFO  [Log] 
+***********************START OF STEP***********************  6.0::Enter Details Name 
+2016-04-11 12:50:05,501 INFO  [Log] 
+input[@placeholder='Your name'] is verified 
+2016-04-11 12:50:05,594 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //input[@placeholder='Your name']] 
+2016-04-11 12:50:05,594 INFO  [Log] 
+6.0::Enter Details Name  IS SET TO PASSED 
+2016-04-11 12:50:05,594 INFO  [Log] 
+***********************END OF STEP***********************    6.0::Enter Details Name 
+2016-04-11 12:50:05,652 INFO  [Log] 
+***********************START OF STEP***********************  7.0::Enter Details YourEmail 
+2016-04-11 12:50:05,682 INFO  [Log] 
+input[@placeholder='Your e-mail'] is verified 
+2016-04-11 12:50:05,772 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //input[@placeholder='Your e-mail']] 
+2016-04-11 12:50:05,772 INFO  [Log] 
+7.0::Enter Details YourEmail  IS SET TO PASSED 
+2016-04-11 12:50:05,772 INFO  [Log] 
+***********************END OF STEP***********************    7.0::Enter Details YourEmail 
+2016-04-11 12:50:05,824 INFO  [Log] 
+***********************START OF STEP***********************  8.0::Enter Details Phno 
+2016-04-11 12:50:05,849 INFO  [Log] 
+input[@placeholder='Phone number'] is verified 
+2016-04-11 12:50:05,919 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //input[@placeholder='Phone number']] 
+2016-04-11 12:50:05,919 INFO  [Log] 
+8.0::Enter Details Phno  IS SET TO PASSED 
+2016-04-11 12:50:05,919 INFO  [Log] 
+***********************END OF STEP***********************    8.0::Enter Details Phno 
+2016-04-11 12:50:05,969 INFO  [Log] 
+***********************START OF STEP***********************  9.0::Enter Details Subject 
+2016-04-11 12:50:06,002 INFO  [Log] 
+input[@placeholder='Subject'] is verified 
+2016-04-11 12:50:06,059 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //input[@placeholder='Subject']] 
+2016-04-11 12:50:06,059 INFO  [Log] 
+9.0::Enter Details Subject  IS SET TO PASSED 
+2016-04-11 12:50:06,059 INFO  [Log] 
+***********************END OF STEP***********************    9.0::Enter Details Subject 
+2016-04-11 12:50:06,119 INFO  [Log] 
+***********************START OF STEP***********************  10.0::Enter Details Message 
+2016-04-11 12:50:06,145 INFO  [Log] 
+textarea [@name='msg'] is verified 
+2016-04-11 12:50:06,246 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //textarea [@name='msg']] 
+2016-04-11 12:50:06,246 INFO  [Log] 
+10.0::Enter Details Message  IS SET TO PASSED 
+2016-04-11 12:50:06,246 INFO  [Log] 
+***********************END OF STEP***********************    10.0::Enter Details Message 
+2016-04-11 12:50:06,299 INFO  [Log] 
+***********************START OF STEP***********************  11.0::Click on Send Message 
+2016-04-11 12:50:06,331 INFO  [Log] 
+button[text()='SEND MESSAGE'] is verified 
+2016-04-11 12:50:06,518 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (054e980e-30e1-4189-9298-fed301b7f070)] -> xpath: //button[text()='SEND MESSAGE']] 
+2016-04-11 12:50:06,518 INFO  [Log] 
+11.0::Click on Send Message  IS SET TO PASSED 
+2016-04-11 12:50:06,518 INFO  [Log] 
+***********************END OF STEP***********************    11.0::Click on Send Message 
+2016-04-11 12:50:06,591 INFO  [Log] 
+***********************START OF STEP***********************  12.0::Wait for Window 
+2016-04-11 12:50:10,592 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:50:10,592 INFO  [Log] 
+12.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:50:10,592 INFO  [Log] 
+***********************END OF STEP***********************    12.0::Wait for Window 
+2016-04-11 12:50:10,620 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:50:10,620 INFO  [Log] X 
+2016-04-11 12:50:10,621 INFO  [Log] X 
+2016-04-11 12:50:10,621 INFO  [Log] X 
+2016-04-11 12:50:10,621 INFO  [Log] X 
+2016-04-11 12:51:31,961 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:51:31,962 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:51:31,962 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Test04ContactUsPage_SG_Dev       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-04-11 12:51:31,962 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:51:31,962 INFO  [Log] **************************************************************************************** 
+2016-04-11 12:51:39,906 INFO  [Log] New driver instantiated 
+2016-04-11 12:51:40,064 INFO  [Log] Implicit wait applied on the driver for 20 seconds 
+2016-04-11 12:51:43,393 INFO  [Log] Web application launched successfully 
+2016-04-11 12:51:44,906 INFO  [Log] 
+***********************START OF STEP***********************  1.0::Enter email in body 
+2016-04-11 12:51:44,975 INFO  [Log] 
+input[@placeholder='Type your email here...'] is verified 
+2016-04-11 12:51:45,089 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //input[@placeholder='Type your email here...']] 
+2016-04-11 12:51:45,089 INFO  [Log] 
+1.0::Enter email in body  IS SET TO PASSED 
+2016-04-11 12:51:45,089 INFO  [Log] 
+***********************END OF STEP***********************    1.0::Enter email in body 
+2016-04-11 12:51:45,828 INFO  [Log] 
+***********************START OF STEP***********************  2.0::Click on Get Free Access now 
+2016-04-11 12:51:45,913 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:51:46,101 INFO  [Log] 
+Click is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:51:46,101 INFO  [Log] 
+2.0::Click on Get Free Access now  IS SET TO PASSED 
+2016-04-11 12:51:46,101 INFO  [Log] 
+***********************END OF STEP***********************    2.0::Click on Get Free Access now 
+2016-04-11 12:51:46,164 INFO  [Log] 
+***********************START OF STEP***********************  3.0::Wait for Window 
+2016-04-11 12:51:50,164 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:51:50,164 INFO  [Log] 
+3.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:51:50,164 INFO  [Log] 
+***********************END OF STEP***********************    3.0::Wait for Window 
+2016-04-11 12:51:50,253 INFO  [Log] 
+***********************START OF STEP***********************  4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:51:50,284 INFO  [Log] 
+button[@type='submit'] is verified 
+2016-04-11 12:51:50,309 INFO  [Log] 
+Expected Value:SUBSCRIBED EQUALS Actual Value:SUBSCRIBED  VERIFYGETTEXT ::  is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //button[@type='submit']] 
+2016-04-11 12:51:50,309 INFO  [Log] 
+4.0::Click on subscribed button to check sucessfully subscribed  IS SET TO PASSED 
+2016-04-11 12:51:50,309 INFO  [Log] 
+***********************END OF STEP***********************    4.0::Click on subscribed button to check sucessfully subscribed 
+2016-04-11 12:51:50,371 INFO  [Log] 
+***********************START OF STEP***********************  5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:51:50,400 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:51:50,425 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:51:53,627 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:51:53,802 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:51:56,495 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:51:56,496 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://www.facebook.com/SingSaver.com.sg||
+|||||||Expected :https://www.facebook.|| is verified 
+2016-04-11 12:51:56,517 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:51:56,535 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:52:00,337 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:52:01,263 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:52:03,438 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:52:03,439 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: https://plus.google.com/117439899077598193843||
+|||||||Expected :https://plus.google.|| is verified 
+2016-04-11 12:52:03,494 INFO  [Log] 
+div[@class='social'] is verified 
+2016-04-11 12:52:03,521 INFO  [Log] 
+div[@class='social']a is verified 
+2016-04-11 12:52:05,945 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:52:11,833 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:52:14,019 INFO  [Log] 
+{d778838d-f680-4b84-a25e-f845f5307fda} is verified 
+2016-04-11 12:52:14,019 INFO  [Log] 
+clickandVerifyObjects || 
+|||||||Actual: http://dev.singsaver.com.sg/blog/||
+|||||||Expected :http://dev.singsaver.com.sg/blog|| is verified 
+2016-04-11 12:52:14,019 INFO  [Log] 
+5.0::Click on Links for Social Icons and Verify  IS SET TO PASSED 
+2016-04-11 12:52:14,019 INFO  [Log] 
+***********************END OF STEP***********************    5.0::Click on Links for Social Icons and Verify 
+2016-04-11 12:52:14,101 INFO  [Log] 
+***********************START OF STEP***********************  6.0::Enter Details Name 
+2016-04-11 12:52:14,174 INFO  [Log] 
+input[@placeholder='Your name'] is verified 
+2016-04-11 12:52:14,311 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //input[@placeholder='Your name']] 
+2016-04-11 12:52:14,311 INFO  [Log] 
+6.0::Enter Details Name  IS SET TO PASSED 
+2016-04-11 12:52:14,311 INFO  [Log] 
+***********************END OF STEP***********************    6.0::Enter Details Name 
+2016-04-11 12:52:14,379 INFO  [Log] 
+***********************START OF STEP***********************  7.0::Enter Details YourEmail 
+2016-04-11 12:52:14,411 INFO  [Log] 
+input[@placeholder='Your e-mail'] is verified 
+2016-04-11 12:52:14,523 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //input[@placeholder='Your e-mail']] 
+2016-04-11 12:52:14,523 INFO  [Log] 
+7.0::Enter Details YourEmail  IS SET TO PASSED 
+2016-04-11 12:52:14,523 INFO  [Log] 
+***********************END OF STEP***********************    7.0::Enter Details YourEmail 
+2016-04-11 12:52:14,578 INFO  [Log] 
+***********************START OF STEP***********************  8.0::Enter Details Phno 
+2016-04-11 12:52:14,609 INFO  [Log] 
+input[@placeholder='Phone number'] is verified 
+2016-04-11 12:52:14,680 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //input[@placeholder='Phone number']] 
+2016-04-11 12:52:14,680 INFO  [Log] 
+8.0::Enter Details Phno  IS SET TO PASSED 
+2016-04-11 12:52:14,680 INFO  [Log] 
+***********************END OF STEP***********************    8.0::Enter Details Phno 
+2016-04-11 12:52:14,735 INFO  [Log] 
+***********************START OF STEP***********************  9.0::Enter Details Subject 
+2016-04-11 12:52:14,759 INFO  [Log] 
+input[@placeholder='Subject'] is verified 
+2016-04-11 12:52:14,811 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //input[@placeholder='Subject']] 
+2016-04-11 12:52:14,811 INFO  [Log] 
+9.0::Enter Details Subject  IS SET TO PASSED 
+2016-04-11 12:52:14,812 INFO  [Log] 
+***********************END OF STEP***********************    9.0::Enter Details Subject 
+2016-04-11 12:52:14,860 INFO  [Log] 
+***********************START OF STEP***********************  10.0::Enter Details Message 
+2016-04-11 12:52:14,879 INFO  [Log] 
+textarea [@name='msg'] is verified 
+2016-04-11 12:52:14,974 INFO  [Log] 
+Sendkeys is done on[[FirefoxDriver: firefox on WINDOWS (1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed)] -> xpath: //textarea [@name='msg']] 
+2016-04-11 12:52:14,974 INFO  [Log] 
+10.0::Enter Details Message  IS SET TO PASSED 
+2016-04-11 12:52:14,974 INFO  [Log] 
+***********************END OF STEP***********************    10.0::Enter Details Message 
+2016-04-11 12:52:15,034 INFO  [Log] 
+***********************START OF STEP***********************  11.0::Click on Send Message 
+2016-04-11 12:52:15,116 ERROR [Log] 
+Object is not found on Page is not verifiedThe given selector //button[text()=SEND MESSAGE'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //button[text()=SEND MESSAGE'] because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'MouPC', ip: '10.0.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed
+*** Element info: {Using=xpath, value=//button[text()=SEND MESSAGE']} 
+2016-04-11 12:52:15,116 ERROR [Log] 
+11.0::Click on Send Message  . IS SET TO FAILED 
+2016-04-11 12:52:15,731 ERROR [Log] The given selector //button[text()=SEND MESSAGE'] is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Unable to locate an element with the xpath expression //button[text()=SEND MESSAGE'] because of the following error:
+SyntaxError: The expression is not a legal expression.
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.52.0', revision: '4c2593c', time: '2016-02-11 19:06:42'
+System info: host: 'MouPC', ip: '10.0.1.20', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1f4fd74a-5cb5-4c74-b1fd-eac3294ac2ed
+*** Element info: {Using=xpath, value=//button[text()=SEND MESSAGE']} 
+2016-04-11 12:52:15,760 INFO  [Log] 
+***********************START OF STEP***********************  12.0::Wait for Window 
+2016-04-11 12:52:19,760 INFO  [Log] 
+threadSleep is verified 
+2016-04-11 12:52:19,760 INFO  [Log] 
+12.0::Wait for Window  IS SET TO PASSED 
+2016-04-11 12:52:19,760 INFO  [Log] 
+***********************END OF STEP***********************    12.0::Wait for Window 
+2016-04-11 12:52:19,823 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-04-11 12:52:19,823 INFO  [Log] X 
+2016-04-11 12:52:19,823 INFO  [Log] X 
+2016-04-11 12:52:19,823 INFO  [Log] X 
+2016-04-11 12:52:19,823 INFO  [Log] X 

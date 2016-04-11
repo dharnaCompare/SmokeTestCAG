@@ -40,7 +40,7 @@ public class Test04ContactUsPage_SG_Dev {
 		// Start printing the logs and printing the Test Case name
 		Log.startTestCase(sTestCaseName);
 		// Setting up the Test Data Excel file using Constants variables
-		ExcelWSheet = ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Login");
+		ExcelWSheet = ExcelUtils.setExcelFile(Constant.File_TestData, "Login");
 		// Fetching the Test Case row number from the Test Data Sheet
 		iTestCaseRow = ExcelUtils.getRowContains(ExcelWSheet, sTestCaseName, Constant.Col_TestCaseName);
 		// Launching the browser, this will take the Browser Type from Test Data
@@ -52,7 +52,7 @@ public class Test04ContactUsPage_SG_Dev {
 
 	@DataProvider(name = "DP")
 	public static Object[][] createData() throws Exception {
-		ExcelWSheet = ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, sTestCaseName);
+		ExcelWSheet = ExcelUtils.setExcelFile(Constant.File_TestData, sTestCaseName);
 		ExcelUtils.setExcelSheet(ExcelWBook, sTestCaseName);
 		Object[][] retObjArr = ExcelUtils.getRows(ExcelWSheet, sTestCaseName);
 		System.out.println(retObjArr);
